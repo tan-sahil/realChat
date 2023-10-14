@@ -5,12 +5,15 @@
   "main": "sever.js",
   "scripts": {
     "start": "node server.js",
-    "dev" : "nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "author": "sahil kumar",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.6.2",
     "socket.io": "^4.7.2"
   },
   "devDependencies": {
